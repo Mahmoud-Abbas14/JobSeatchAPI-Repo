@@ -1,11 +1,14 @@
-package com.abbas.JobSearchAPI;
+package com.abbas.JobSearchAPI.Services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.stereotype.Repository;
+
 import org.springframework.stereotype.Service;
+
+import com.abbas.JobSearchAPI.Repository.JobRepository;
+import com.abbas.JobSearchAPI.Repository.Search;
+import com.abbas.JobSearchAPI.model.Job;
 
 
 @Service

@@ -41,6 +41,9 @@
             <scope>test</scope>
         </dependency>
 
+		
+
+
         <!-- Apache Tomcat Jasper (JSP support, optional - remove if unused) -->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
@@ -55,12 +58,6 @@
             <version>2.5.0</version>
         </dependency>
 
-        <!-- Optional: Your own dependency (if required) -->
-        <dependency>
-            <groupId>com.telusko</groupId>
-            <artifactId>demo-rest-2</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <build>

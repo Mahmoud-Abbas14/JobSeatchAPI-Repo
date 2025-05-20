@@ -1,4 +1,4 @@
-package com.abbas.JobSearchAPI;
+package com.abbas.JobSearchAPI.model;
 
 import java.util.Arrays;
 

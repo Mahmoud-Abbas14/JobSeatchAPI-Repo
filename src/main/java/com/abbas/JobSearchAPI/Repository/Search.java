@@ -1,4 +1,4 @@
-package com.abbas.JobSearchAPI;
+package com.abbas.JobSearchAPI.Repository;
 
 import java.util.ArrayList;
 import java.util.Arrays;

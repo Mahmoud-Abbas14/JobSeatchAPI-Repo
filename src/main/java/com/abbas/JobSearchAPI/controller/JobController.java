@@ -1,4 +1,4 @@
-package com.abbas.JobSearchAPI;
+package com.abbas.JobSearchAPI.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.abbas.JobSearchAPI.Services.Services;
+import com.abbas.JobSearchAPI.model.Job;
 
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.servlet.http.HttpServletResponse;
